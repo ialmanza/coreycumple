@@ -1,0 +1,41 @@
+<div class="container">
+      <div class="content">
+        <div class="header">
+          <h1 class="surprise-title">🎉 Surprise! Your Special Gift! 🎁</h1>
+          <p class="message">
+            We created something very special just for you...
+            <br>
+            A heartfelt message from all of us who love you! ❤️
+          </p>
+        </div>
+
+        <div class="video-container">
+          <div class="video-wrapper">
+            <iframe
+              [src]="videoUrl"
+              title="Special Birthday Video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div class="footer-message">
+          <h3>🌟 Happy Birthday! 🌟</h3>
+          <p>
+            This video was made with all our love and best wishes for you.
+            <br>
+            We hope it brings a smile to your face and warmth to your heart.
+          </p>
+          <p class="signature">
+            With love,<br>
+            <strong>Your Chikensitos Family 💕</strong>
+          </p>
+        </div>
+
+        <button class="back-button" (click)="goBack()">
+          ← Watch Again
+        </button>
+      </div>
+    </div>
